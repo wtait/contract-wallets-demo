@@ -8,6 +8,19 @@
 Prerequisites: [Node (v16 LTS)](https://nodejs.org/en/download/) plus [Yarn](https://classic.yarnpkg.com/en/docs/install/) and [Git](https://git-scm.com/downloads)
 
 
+> confirm correct node.js version:
+
+```bash
+node -v
+```
+
+    > if incorrect version installed, switch to 16 using nvm:
+
+    ```bash 
+    nvm use 16
+    ```
+
+
 > install and start local 👷‍ Hardhat chain:
 
 ```bash
