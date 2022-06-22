@@ -7,13 +7,8 @@
 
 Prerequisites: [Node (v16 LTS)](https://nodejs.org/en/download/) plus [Yarn](https://classic.yarnpkg.com/en/docs/install/) and [Git](https://git-scm.com/downloads)
 
-> clone/fork 🏗 scaffold-eth:
 
-```bash
-git clone https://github.com/scaffold-eth/scaffold-eth.git
-```
-
-> install and start your 👷‍ Hardhat chain:
+> install and start local 👷‍ Hardhat chain:
 
 ```bash
 cd contract-wallets-demo
@@ -24,14 +19,14 @@ yarn chain
 > in a second terminal window, start the frontend:
 
 ```bash
-cd scaffold-eth
+cd contract-wallets-demo
 yarn start
 ```
 
 > in a third terminal window, deploy the wallet factory contract:
 
 ```bash
-cd scaffold-eth
+cd contract-wallets-demo
 yarn deploy
 ```
 
