@@ -14,7 +14,7 @@ Prerequisites: [Node (v16 LTS)](https://nodejs.org/en/download/) plus [Yarn](htt
 node -v
 ```
 
-    > if incorrect version installed, switch to 16 using nvm:
+ > if incorrect version installed, switch to 16 using nvm:
 
     ```bash 
     nvm use 16
