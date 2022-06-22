@@ -16,9 +16,9 @@ node -v
 
  > if incorrect version installed, switch to 16 using nvm:
 
-    ```bash 
-    nvm use 16
-    ```
+```bash 
+nvm use 16
+```
 
 
 > install and start local 👷‍ Hardhat chain:
