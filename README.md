@@ -16,6 +16,13 @@ yarn install
 yarn chain
 ```
 
+> run tests
+
+```bash
+yarn test
+```
+
+
 > in a second terminal window, start the frontend:
 
 ```bash
@@ -28,12 +35,6 @@ yarn start
 ```bash
 cd contract-wallets-demo
 yarn deploy
-```
-
-> run tests
-
-```bash
-yarn test
 ```
 
 📱 Open http://localhost:3000 to see the app
