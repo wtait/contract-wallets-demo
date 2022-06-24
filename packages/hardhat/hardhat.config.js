@@ -302,15 +302,26 @@ module.exports = {
       // add other network's API key here
     },
   },
-  abiExporter: {
-    path: "../react-app/src/contracts/ABI",
-    runOnCompile: true,
-    clear: true,
-    flat: true,
-    only: [],
-    spacing: 2,
-    pretty: false,
-  },
+  abiExporter: [
+    {
+      path: "../hardhat/abi/contracts/",
+      runOnCompile: true,
+      clear: true,
+      flat: true,
+      only: [],
+      spacing: 2,
+      pretty: false,
+    },
+    {
+      path: "../react-app/src/contracts/ABI",
+      runOnCompile: true,
+      clear: true,
+      flat: true,
+      only: [],
+      spacing: 2,
+      pretty: false,
+    },
+  ]
 };
 
 const DEBUG = false;
