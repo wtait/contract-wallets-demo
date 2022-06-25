@@ -6,10 +6,9 @@ const walletABI = require("../abi/contracts/SmartWallet.json");
 const { keccak256 } = require("@ethersproject/keccak256");
 
 
-
 const getSalt = () => {
   return keccak256(ethers.utils.randomBytes(32))
-}
+};
 
 const magicValue = "0x1626ba7e";
 
@@ -19,13 +18,12 @@ const  arbitrarySignature =
 const  arbitraryMsgHash =
   "0xec4870a1ebdcfbc1cc84b0f5a30aac48ed8f17973e0189abdb939502e1948238";
 
-const arbitrarySalt = getSalt()
-
-
+const arbitrarySalt = getSalt();
 
 const message = "a simple message";
 
 let WalletFactory, WalletFactory_Deployer, wallet, alice, aliceWallet, walletDeployTransaction, signature, hash, events;
+
 
 beforeEach(async () => {
   WalletFactory_Deployer = await ethers.getContractFactory("WalletFactory");
