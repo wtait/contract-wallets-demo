@@ -4,6 +4,9 @@ import { GlobalStyles } from "@mui/styled-engine";
 import Layout from "./Layout";
 import Header from "./Header";
 import SideNav from "./SideNav";
+import MainContent from "./MainContent";
+import RightContent from "./RightContent";
+import MainFiller from "./MainFiller";
 
 
 
@@ -21,6 +24,10 @@ const App = () => {
       <Layout>
         <Header />
         <SideNav />
+        <MainContent>
+          <MainFiller />
+        </MainContent>
+        <RightContent />
       </Layout>
     </CssVarsProvider>
   );
