@@ -7,7 +7,6 @@ const Layout = (props: BoxProps) => (
     {...props}
     sx={[
       {
-        // bgcolor: 'background.appBody',
         bgcolor: '#FFDEA6',
         display: 'grid',
         gridTemplateColumns: {

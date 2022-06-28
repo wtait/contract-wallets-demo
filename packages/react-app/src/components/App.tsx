@@ -1,11 +1,11 @@
 import React from "react";
-import Account from "./Account";
-import Wallet from "./Wallet";
-import WalletList from "./WalletList";
-import MessageList from "./MessageList";
-import Layout from "./Layout";
 import { CssVarsProvider, useColorScheme } from '@mui/joy/styles';
 import { GlobalStyles } from "@mui/styled-engine";
+import Layout from "./Layout";
+import Header from "./Header";
+import SideNav from "./SideNav";
+
+
 
 const App = () => {
   return (
@@ -18,7 +18,10 @@ const App = () => {
           },
         })}
       />
-      <Layout />
+      <Layout>
+        <Header />
+        <SideNav />
+      </Layout>
     </CssVarsProvider>
   );
 };
