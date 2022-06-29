@@ -15,8 +15,6 @@ const Header = (props: BoxProps) => (
           justifyContent: 'space-between',
           alignItems: 'center',
           gridColumn: '1 / -1',
-          borderBottom: '1px solid',
-          borderColor: 'divider',
           position: 'sticky',
           top: 0,
           zIndex: 1100,
@@ -27,4 +25,3 @@ const Header = (props: BoxProps) => (
   );
 
   export default Header;
-  
