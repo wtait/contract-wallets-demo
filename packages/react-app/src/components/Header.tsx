@@ -10,6 +10,7 @@ const Header = (props: BoxProps) => (
           p: 2,
           gap: 2,
           bgcolor: 'background.componentBg',
+          backdropFilter: "blur(4px)",
           display: 'flex',
           flexDirection: 'row',
           justifyContent: 'space-between',
