@@ -1,5 +1,6 @@
 import Box, { BoxProps } from '@mui/joy/Box';
 import Title from './Title';
+import Account from './Account';
 
 const Header = (props: BoxProps) => (
     <Box
@@ -26,6 +27,8 @@ const Header = (props: BoxProps) => (
       ]}
     >
       <Title/>
+      <Account/>
+
     </Box>
   );
 
