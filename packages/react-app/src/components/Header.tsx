@@ -1,4 +1,5 @@
 import Box, { BoxProps } from '@mui/joy/Box';
+import Title from './Title';
 
 const Header = (props: BoxProps) => (
     <Box
@@ -23,7 +24,9 @@ const Header = (props: BoxProps) => (
         },
         ...(Array.isArray(props.sx) ? props.sx : [props.sx]),
       ]}
-    />
+    >
+      <Title/>
+    </Box>
   );
 
   export default Header;
