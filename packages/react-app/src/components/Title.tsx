@@ -9,6 +9,5 @@ const Title = () =>
             Wall☰t
         </Typography>
     </Box>;
-    
 
 export default Title;

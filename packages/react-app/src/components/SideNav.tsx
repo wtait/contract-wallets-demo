@@ -1,6 +1,8 @@
 import Box, { BoxProps } from '@mui/joy/Box';
+import LeftFiller from './LeftFiller';
 
-const SideNav = (props: BoxProps) => (
+const SideNav = (props: BoxProps) =>
+
     <Box
       component="nav"
       className="Navigation"
@@ -19,6 +21,5 @@ const SideNav = (props: BoxProps) => (
         ...(Array.isArray(props.sx) ? props.sx : [props.sx]),
       ]}
     />
-  );
 
   export default SideNav

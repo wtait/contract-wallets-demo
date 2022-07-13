@@ -1,6 +1,7 @@
 import Sheet, {SheetProps} from '@mui/joy/Sheet'
 
-const RightContent = (props: SheetProps) => (
+const RightContent = (props: SheetProps) => 
+
   <Sheet
     sx={{
       display: { xs: 'none', sm: 'initial' },
@@ -10,9 +11,6 @@ const RightContent = (props: SheetProps) => (
     bgcolor: 'transparent',
     background: 'rgba(255,255,255, 0.25)'
     }}
-  >
-    
-  </Sheet>
-)
+  />
 
 export default RightContent;

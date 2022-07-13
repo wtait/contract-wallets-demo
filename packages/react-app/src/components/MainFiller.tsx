@@ -25,7 +25,7 @@ import CompareArrowsIcon from '@mui/icons-material/CompareArrows';
 import EditOutlinedIcon from '@mui/icons-material/EditOutlined';
 import { Paper } from '@mui/material';
 
-const MainFiller = () => (
+const MainFiller = () => 
 
     <Box
     sx={{
@@ -460,6 +460,5 @@ const MainFiller = () => (
         </CardContent>
       </Card>
     </Box>
-)
 
 export default MainFiller

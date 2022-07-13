@@ -2,7 +2,8 @@ import Box, { BoxProps } from '@mui/joy/Box';
 import Title from './Title';
 import Account from './Account';
 
-const Header = (props: BoxProps) => (
+const Header = (props: BoxProps) => 
+
     <Box
       component="header"
       className="Header"
@@ -30,6 +31,5 @@ const Header = (props: BoxProps) => (
       <Account/>
 
     </Box>
-  );
 
   export default Header;

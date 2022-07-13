@@ -7,11 +7,12 @@ import SideNav from "./SideNav";
 import MainContent from "./MainContent";
 import RightContent from "./RightContent";
 import MainFiller from "./MainFiller";
+import LeftFiller from "./LeftFiller";
 
 
 
-const App = () => {
-  return (
+const App = () => 
+
     <CssVarsProvider disableTransitionOnChange>
       <GlobalStyles
         styles={() => ({
@@ -23,14 +24,15 @@ const App = () => {
       />
       <Layout>
         <Header />
-        <SideNav />
+        <SideNav>
+          <LeftFiller/>
+        </SideNav>
         <MainContent>
           <MainFiller />
         </MainContent>
         <RightContent />
       </Layout>
     </CssVarsProvider>
-  );
-};
+
 
 export default App;

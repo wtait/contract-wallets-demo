@@ -1,6 +1,7 @@
 import Box, { BoxProps } from '@mui/joy/Box';
 
-const MainContent = (props: BoxProps) => (
+const MainContent = (props: BoxProps) => 
+
     <Box
       component="main"
       className="Main"
@@ -11,6 +12,5 @@ const MainContent = (props: BoxProps) => (
         boxShadow: 'inset 3px 3px 3px 3px rgb(31 38 35 / 7%)'
       }, ...(Array.isArray(props.sx) ? props.sx : [props.sx])]}
     />
-  );
 
   export default MainContent

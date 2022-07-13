@@ -2,7 +2,8 @@ import * as React from 'react';
 import Box, { BoxProps } from '@mui/joy/Box';
 
 
-const Layout = (props: BoxProps) => (
+const Layout = (props: BoxProps) =>
+
   <Box
     {...props}
     sx={[
@@ -26,6 +27,5 @@ const Layout = (props: BoxProps) => (
       ...(Array.isArray(props.sx) ? props.sx : [props.sx]),
     ]}
   />
-);
 
 export default Layout;
