@@ -26,6 +26,7 @@
     "@mui/joy": "latest",
     "@mui/material": "latest",
     "@portis/web3": "^4.0.5",
+    "@rainbow-me/rainbowkit": "^0.4.2",
     "@ramp-network/ramp-instant-sdk": "^2.2.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -62,6 +63,7 @@
     "react-scripts": "4.0.1",
     "searchico": "^1.2.1",
     "typescript": "latest",
+    "wagmi": "^0.5.9",
     "walletlink": "^2.1.5",
     "web3modal": "^1.9.1"
   },
